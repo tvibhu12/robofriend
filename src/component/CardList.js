@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+//Displaying User's details in cards
 const CardList=({robots})=>{
     const cardComponent=robots.map((user)=>
     {

@@ -1,5 +1,6 @@
 import React from "react";
 const Card = ({ name, email, id }) => {
+  //Displaying Card without details
   return (
     <div className="bg-light-green dib br3 pa3 ma2 grow">
       <img alt="robot" src={`https://robohash.org/${id}?200x200`} />
